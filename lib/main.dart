@@ -5,7 +5,7 @@ import 'firebase_options.dart';
 // 1. Import the native splash package
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'screens/auth_wrapper.dart'; // 1. Import AuthWrapper
-import 'package:myapp/providers/cart_provider.dart'; // 1. ADD THIS
+import 'package:ecommerce_app/providers/cart_provider.dart'; // 1. ADD THIS
 import 'package:provider/provider.dart'; // 2. ADD THIS
 
 void main() async {
@@ -17,6 +17,7 @@ void main() async {
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
   // 1. This is the line we're changing
+
   runApp(
     // 2. We wrap our app in the provider
     ChangeNotifierProvider(

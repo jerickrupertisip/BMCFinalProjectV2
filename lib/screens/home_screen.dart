@@ -2,11 +2,11 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart'; // 1. ADD THIS IMPORT
-import 'package:myapp/screens/admin_panel_screen.dart'; // 2. ADD THIS
-import 'package:myapp/widgets/product_card.dart'; // 1. ADD THIS IMPORT
-import 'package:myapp/screens/product_detail_screen.dart'; // 1. ADD THIS IMPORT
-import 'package:myapp/providers/cart_provider.dart'; // 1. ADD THIS
-import 'package:myapp/screens/cart_screen.dart'; // 2. ADD THIS
+import 'package:ecommerce_app/screens/admin_panel_screen.dart'; // 2. ADD THIS
+import 'package:ecommerce_app/widgets/product_card.dart'; // 1. ADD THIS IMPORT
+import 'package:ecommerce_app/screens/product_detail_screen.dart'; // 1. ADD THIS IMPORT
+import 'package:ecommerce_app/providers/cart_provider.dart'; // 1. ADD THIS
+import 'package:ecommerce_app/screens/cart_screen.dart'; // 2. ADD THIS
 import 'package:provider/provider.dart'; // 3. ADD THIS
 
 // Part 2: Widget Definition

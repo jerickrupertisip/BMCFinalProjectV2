@@ -1,4 +1,4 @@
-import 'package:myapp/screens/login_screen.dart';
+import 'package:ecommerce_app/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart'; // 1. Add Firebase Auth import
 import 'package:cloud_firestore/cloud_firestore.dart'; // 1. ADD THIS IMPORT

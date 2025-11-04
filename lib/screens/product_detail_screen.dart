@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/providers/cart_provider.dart'; // 1. ADD THIS
+import 'package:ecommerce_app/providers/cart_provider.dart'; // 1. ADD THIS
 import 'package:provider/provider.dart'; // 2. ADD THIS
 
 // 1. This is a new StatelessWidget
